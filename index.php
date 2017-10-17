@@ -99,9 +99,9 @@ require(__DIR__ . '/functions.php');
 
           </div>
           <div class="card-footer text-muted">
-            Created by
+
             <?php echo $post['Author']; ?>
-            on
+
             <?php echo $post['Published']; ?>
             <a id="likes"><?php echo $post['Likes']; ?></a>
           </div>
