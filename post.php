@@ -1,7 +1,10 @@
 <?php
 declare(strict_types=1);
 
-
+$copyright = 'Copyright &copy;';
+$name = 'Filip Petersson';
+$year = date("Y");
+$copyrightby = $copyright . ' ' . $name . ' ' . $year;
 
 $posts = [
 
