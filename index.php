@@ -18,12 +18,8 @@ require(__DIR__ . '/functions.php');
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-  <!-- Custom styles for this template -->
-
 </head>
-
 <body>
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -31,22 +27,16 @@ require(__DIR__ . '/functions.php');
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
     </div>
   </nav>
-
   <!-- Page Content -->
   <div class="container">
-
     <div class="row">
-
       <!-- Blog Entries Column -->
       <div class="col-md-8">
-
         <h1 class="my-4">Movie
             <small>blog</small>
           </h1>
-
           <!-- <div class="container">
                   <div class="row centered-form">
                   <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4" id="fixwid">
@@ -86,9 +76,6 @@ require(__DIR__ . '/functions.php');
               		</div>
               	</div>
               </div> -->
-
-
-
         <!-- Blog Post -->
         <?php foreach ($posts as $post): ?>
         <div class="card mb-4">
@@ -96,50 +83,28 @@ require(__DIR__ . '/functions.php');
           <div class="card-body">
             <h2 class="card-title"><?php echo $post['Title']; ?></h2>
             <p class="card-text"><?php echo $post['Content']; ?></p>
-
           </div>
           <div class="card-footer text-muted">
-
-            <?php echo $post['Author']; ?>
-
+              Posted by:
+            <?php echo $post['Author']['name']; ?>
             <?php echo $post['Published']; ?>
             <a id="likes"><?php echo $post['Likes']; ?></a>
           </div>
         </div>
 <?php endforeach; ?>
-
-
-
       </div>
-
-
-
-
-        <!-- Side Widget -->
-
-
       </div>
-
     </div>
-    <!-- /.row -->
-
   </div>
-  <!-- /.container -->
-
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white"><?php echo $copyrightby ?></p>
     </div>
-    <!-- /.container -->
   </footer>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
 </body>
-
-
 </html>
