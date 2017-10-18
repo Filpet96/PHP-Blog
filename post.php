@@ -26,7 +26,7 @@ $posts = [
   'Author' => ['id' => '002', 'name' =>  'Marty McFly'],
   'Published' => '1989-11-20',
   'Likes' => 219,
-  'Image' => 'http://filmgarb.com/wp-content/uploads/film-back_to_the_future-1985-marty_mcfly-michael_j_fox-jacket-jean_jacket.jpg'
+  'Image' => '/images/MartyMcFly.jpg'
 ],
 
 // The Joker
