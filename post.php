@@ -36,7 +36,7 @@ $posts = [
   'Author' => ['id' => '003', 'name' =>  ' The Joker'],
   'Published' => '2008-07-13',
   'Likes' => '469',
-  'Image' => 'http://cdn2.business2community.com/wp-content/uploads/2016/10/Heaths-Joker-300x128.jpg.jpg'
+  'Image' => '/images/Darkknight.jpg'
 ],
 [
   'Title' => 'The Joker',
@@ -44,7 +44,7 @@ $posts = [
   'Author' => ['id' => '004', 'name' =>  'The Joker'],
   'Published' => '2008-08-13',
   'Likes' => '1269',
-  'Image' => 'https://wallpaperhdzone.com/wp-content/uploads/2016/02/joker-wallpaper4.jpg'
+  'Image' => '/images/Joker.jpg'
 ],
 
 // Rocky Balboa
@@ -54,7 +54,7 @@ $posts = [
   'Author' => ['id' => '005', 'name' =>  'Rocky Balboa'],
   'Published' => '1990-11-16',
   'Likes' => '869',
-  'Image' => 'https://images6.alphacoders.com/341/341558.jpg'
+  'Image' => '/images/RockyV.jpg'
 ],
 [
   'Title' => 'Rocky',
@@ -62,7 +62,7 @@ $posts = [
   'Author' => ['id' => '006', 'name' =>  'Rocky Balboa'],
   'Published' => '1976-11-21',
   'Likes' => '8069',
-  'Image' => 'https://images7.alphacoders.com/392/392019.jpg'
+  'Image' => '/images/RockyBalboa.jpg'
 ],
 
 // Goodfellas
@@ -72,7 +72,7 @@ $posts = [
   'Author' => ['id' => '007', 'name' =>  'James Conway'],
   'Published' => '1990-09-17',
   'Likes' => '569',
-  'Image' => 'https://images7.alphacoders.com/341/341191.jpg'
+  'Image' => '/images/Goodfellas1.jpg'
 ],
 [
   'Title' => 'Goodfellas',
@@ -80,7 +80,7 @@ $posts = [
   'Author' => ['id' => '008', 'name' =>  'James Conway'],
   'Published' => '1990-02-17',
   'Likes' => '913',
-  'Image' => 'https://i.imgur.com/sNUoacP.jpg'
+  'Image' => '/images/Goodfellas2.jpg'
 ],
 
 // Malcolm X
@@ -90,7 +90,7 @@ $posts = [
   'Author' => ['id' => '009', 'name' =>  'Malcolm X'],
   'Published' => '1992-11-18',
   'Likes' => '169',
-  'Image' => 'https://media2.s-nbcnews.com/i/MSNBC/Components/Video/150220/a_flashback_malcolm_150219.jpg'
+  'Image' => '/images/MalcolmX.jpg'
 ],
 [
   'Title' => 'Malcolm X Biography',
@@ -98,7 +98,7 @@ $posts = [
   'Author' => ['id' => '010', 'name' =>  'Malcolm X'],
   'Published' => '1925-17-08',
   'Likes' => '1489',
-  'Image' => 'http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/203/tdih-feb21-HD.jpg'
+  'Image' => '/images/MalcolmXBiography.jpg'
 ],
 
 ];
