@@ -91,7 +91,7 @@ require(__DIR__ . '/functions.php');
             <a id="likes"><?php echo $post['Likes']; ?></a>
           </div>
         </div>
-<?php endforeach; ?>
+    <?php endforeach; ?>
       </div>
       </div>
     </div>
