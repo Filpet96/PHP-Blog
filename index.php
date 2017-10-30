@@ -13,7 +13,7 @@ require(__DIR__ . '/functions.php');
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title></title>
+  <title>Good-News-Project</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
