@@ -96,16 +96,11 @@ $posts = [
   'Title' => 'Malcolm X Biography',
   'Content' => 'Malcolm X was born Malcolm Little on May 19, 1925 in Omaha, Nebraska. His mother, Louise Norton Little, was a homemaker occupied with the family’s eight children. His father, Earl Little, was an outspoken Baptist minister and avid supporter of Black Nationalist leader Marcus Garvey. Earl’s civil rights activism prompted death threats from the white supremacist organization Black Legion, forcing the family to relocate twice before Malcolm’s fourth birthday.',
   'Author' => ['id' => '010', 'name' =>  'Malcolm X'],
-  'Published' => '1925-17-08',
+  'Published' => '1925-08-17',
   'Likes' => '1489',
   'Image' => '/images/MalcolmXBiography.jpg'
 ],
 
 ];
 
-
-// $firstname = $_POST["firstname"];
-// $lastname = $_POST["lastname"];
-// $title = $_POST["title"];
-// $text = $_POST["text"];
  ?>

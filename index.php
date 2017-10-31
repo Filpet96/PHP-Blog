@@ -37,45 +37,7 @@ require(__DIR__ . '/functions.php');
         <h1 class="my-4">Movie
             <small>blog</small>
           </h1>
-          <!-- <div class="container">
-                  <div class="row centered-form">
-                  <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4" id="fixwid">
-                  	<div class="panel panel-default">
-                  		<div class="panel-heading">
-          			    		<h3 class="panel-title">Create Post</h3>
-          			 			</div>
-          			 			<div class="panel-body">
-                        <form role="form" action="index.php" method="POST">
-          			    			<div class="row">
-          			    				<div class="col-xs-4 col-sm-4 col-md-4">
-          			    					<div class="form-group">
-          			                <input type="text" name="Author" id="firstname" class="form-control input-sm" placeholder="Author">
-          			    					</div>
-          			    				</div>
 
-          			    			</div>
-                          <div class="col-xs-6 col-sm-6 col-md-6">
-          			    			<div class="form-group">
-          			    				<input type="text" name="title" id="title" class="form-control input-sm marginfix" placeholder="Title">
-          			    			</div>
-                        </div>
-          			    			<div class="row">
-          			    				<div class="col-xs-9 col-sm-9 col-md-9">
-          			    					<div class="form-group">
-          			    						<textarea rows="5" name="text" id="text" class="form-control input-sm" placeholder="Text"></textarea>
-          			    					</div>
-          			    				</div>
-
-          			    			</div>
-
-          			    			<input type="submit" value="Post" class="btn btn-info btn-block">
-
-          			    		</form>
-          			    	</div>
-          	    		</div>
-              		</div>
-              	</div>
-              </div> -->
         <!-- Blog Post -->
         <?php foreach ($posts as $post): ?>
         <div class="card mb-4">
